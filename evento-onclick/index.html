@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Top bar -->
+        <div class="topbar">
+            <div class="content">
+                <h1>Dojonary</h1>
+                <input type="search" placeholder="Search">
+                <button onclick="turnLogout(this)"> Login</button>
+            </div>
+        </div>
+
+        <!-- Contenido -->
+        <div class="body-content">
+
+            <!-- 1ra columna -->
+            <div class="first-col col-3">
+                <!-- tarjeta -->
+                <div class="card">
+                    <div class="col-1">
+                        <div class="word">
+                            <h1>ninja</h1>
+                            <h2>noun</h2>
+                            <h3>Plural: <span>ninjas</span></h3>
+                        </div>
+                        <div class="button-like">
+                            <input type="button" value="13 likes" onclick="alertLike()">
+                        </div>
+                    </div>
+                    <div class="description col-3">
+                        <p>A practioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="col-1">
+                        <div class="word">
+                            <h1>ninja</h1>
+                            <h2>noun</h2>
+                            <h3>Plural: <span>ninjas</span></h3>
+                        </div>
+                        <div class="button-like">
+                            <input type="button" value="37 likes" onclick="alertLike()">
+                        </div>
+                    </div>
+                    <div class="description col-3">
+                        <p>A practioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <!-- fin tarjeta -->
+            </div>
+            
+            <!-- 2da columna -->
+            <div class="second-col col-1">
+                <div class="card">
+                    <div class="col-1">
+                        <h2>Dojonary is defined by <b>YOU</b></h2>
+                        <div class="button-add">
+                            <input type="button" value="Add Definition" onclick="hide(this)">
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+h1,h2,h3,p {
+    margin: 3px 0 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+h2 {
+    font-style: italic;
+}
+h3 span {
+    font-style: italic;
+}
+body {
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+
+
+}
+.col-1{
+    flex:1;
+    padding: 0 10px;
+}
+.col-2{
+    flex: 2;
+    padding: 0 10px;
+
+}
+.col-3{
+    flex:3;
+    padding: 0 10px;
+}
+.col-4{
+    flex:4;
+}
+.body-content {
+    display: flex;
+}
+
+/* TOP BAR */
+.topbar {
+    background-color: rgb(170, 170, 170);
+    height: 70px;
+    margin: 0 10px;
+}
+.topbar .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    height: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+.topbar input[type="search"] {
+    width: 400px;
+}
+.topbar button{
+    width: 70px;
+    background-color: blue;
+    color: white;
+}
+
+/* cards primera columna */
+.card {
+    margin: 20px 0;
+    padding: 20px 30px;
+    border: solid 2px black;
+    display: flex;
+    justify-content: flex-start;
+}
+.description.col-3 {
+    padding-top: 40px;
+}
+.button-like input[type="button"]{
+    background-color: rgb(255, 226, 39);
+    width: 70px;
+    height: 30px;
+}
+
+/* Card segunda columna */
+.button-add input[type="button"]{
+    background-color: rgb(101, 198, 79);
+    width: 100%;
+    height: 30px;
+}
+.second-col h2 {
+    font-style: normal;
+}
